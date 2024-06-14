@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Bublik-UI
         uses: actions/checkout@v4
         with:
-          repository: ts-factory/bublik-ui
+          repository: okt-limonikas/bublik-ui
           path: ${{env.BUBLIK_UI_LOCATION}}
           ref: main
       # Setup pnpm
